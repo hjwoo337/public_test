@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String test() {
-        return "test";  // "test"라는 문자열이 그대로 응답됨
+        return "test!!!!";  // "test"라는 문자열이 그대로 응답됨
     }
 }
