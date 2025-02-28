@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String test() {
-        return "20250228 1247 test";  // "test"라는 문자열이 그대로 응답됨
+        return "작업을 완료했습니다!";  // "test"라는 문자열이 그대로 응답됨
     }
 }
